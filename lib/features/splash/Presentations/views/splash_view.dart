@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:wateen/features/splash/Presentations/views/widgets/pulse_line_widget.dart';
 
 class SplashView extends StatelessWidget {
@@ -7,18 +8,33 @@ class SplashView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      mainAxisAlignment: .center,
       children: [
-        Center(
-          child: Image.asset(
-            'assets/images/wateen_logo.png',
-            height: 200,
-            width: 200,
+        Expanded(
+          child: Center(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                SizedBox(height: 200),
+                Image.asset(
+                  'assets/images/wateen_logo.png',
+                  height: 200,
+                  width: 200,
+                ),
+                const SizedBox(height: 32),
+                const PulseLineWidget(),
+              ],
+            ),
           ),
         ),
-        SizedBox(height: 32,),
-        PulseLineWidget(),
 
+        // Bottom Curves
+        SizedBox(
+          width: double.infinity,
+          child: SvgPicture.asset(
+            'assets/svgs/splash_bottom_curves.svg',
+            fit: BoxFit.fill,
+          ),
+        ),
       ],
     );
   }
