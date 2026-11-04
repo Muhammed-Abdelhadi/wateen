@@ -1,0 +1,266 @@
+{
+  "onboarding": {
+    "skip": "تخطي",
+    "screen1": {
+      "title": "نوصلك بالمتبرع الصح بذكاء وسرعة",
+      "description": "بنختار لك المتبرع المناسب حسب فصيلة الدم والموقع وجاهزية المتبرع فوراً."
+    },
+    "screen2": {
+      "title": "مخزون ذكي لإمداد أسرع",
+      "description": "نساعد المستشفيات تتابع فصائل الدم وكمياتها وتواريخ صلاحيتها، عشان نقلل الهدر ونستعد للاحتياجات."
+    },
+    "screen3": {
+      "title": "أولوية أذكى لطلبات الطوارئ",
+      "description": "نحلل بيانات طلبات الدم ودرجة الاستعجال لدعم ترتيب الأولويات وتوجيه الطلبات المناسبة بسرعة."
+    },
+    "continue": "متابعة"
+  },
+  "welcomeWateen": {
+    "title": "أهلاً بيك في وتين!",
+    "description": "خطوة جديدة في رحلتك معانا.. سواء كنت بتساعد غيرك أو بتدور على مساعدة، هتلاقينا دايماً جنبك",
+    "start": "ابداً استخدام وتين"
+  },
+  "completeProfile": {
+    "title": "إكمال الملف الشخصي",
+    "subtitle": "أكمل بياناتك لنجعل تجربتك في وتين أفضل",
+    "steps": {
+      "basicInfo": "البيانات الأساسية",
+      "healthProfile": "الملف الصحي",
+      "donationPreferences": "تفضيلات التبرع",
+      "completion": "تم الإكتمال"
+    },
+    "note": "أكمل بياناتك الأساسية أولاً، ويمكنك إكمال باقي البيانات لاحقاً.",
+    "personalInfoTitle": "المعلومات الشخصية",
+    "personalInfoSubtitle": "البيانات الأساسية التي تساعدنا في التواصل معك",
+    "addPhoto": "إضافة صورة شخصية",
+    "optional": "(اختياري)",
+    "labels": {
+      "fullName": "الاسم بالكامل",
+      "gender": "النوع",
+      "dateOfBirth": "تاريخ الميلاد",
+      "phone": "رقم الهاتف",
+      "governorate": "المحافظة",
+      "city": "المدينة/المركز",
+      "district": "المنطقة (اختياري)",
+      "bloodType": "فصيلة الدم"
+    },
+    "placeholders": {
+      "fullName": "هدى محمد حمزة",
+      "dateOfBirth": "يوم / شهر / سنة",
+      "phone": "010 1234 5678",
+      "governorate": "القاهرة",
+      "city": "مدينة نصر",
+      "district": "مثال: الحي العاشر"
+    },
+    "genderOptions": {
+      "male": "ذكر",
+      "female": "أنثى"
+    },
+    "laterNote": "يمكنك لاحقاً إكمال البيانات الصحية وتفضيلات التبرع إذا كنت متبرعاً.",
+    "continue": "متابعة"
+  },
+  "medicalProfile": {
+    "title": "الملف الصحي",
+    "subtitle": "ساعدنا في معرفة حالتك الصحية لضمان سلامتك أثناء التبرع",
+    "notice": "هذه المعلومات مخصصة للمتبرعين فقط. يمكنك تعديلها لاحقاً من الإعدادات.",
+    "sectionTitle": "المعلومات الصحية",
+    "sectionSubtitle": "يرجى الإجابة على الأسئلة التالية بدقة.",
+    "questions": {
+      "donatedBefore": {
+        "title": "هل تبرعت بالدم من قبل؟",
+        "previousDonationsCount": "عدد مرات التبرع السابقة (اختياري)",
+        "countPlaceholder": "مثال: 3",
+        "lastDonationDate": "تاريخ آخر تبرع",
+        "datePlaceholder": "يوم /شهر /سنة"
+      },
+      "weight": {
+        "title": "الوزن (كجم)",
+        "placeholder": "مثال: 70"
+      }
+    },
+    "healthConditions": {
+      "title": "الحالات الصحية والأمراض",
+      "subtitle": "نرجو توضيح حالتك في كل بند",
+      "anemia": "هل تعاني من الأنيميا؟",
+      "medications": "هل تتناول أدوية بانتظام؟",
+      "chronicDiseases": "هل تعاني من أمراض مزمنة؟",
+      "chronicDetailsPlaceholder": "ما هو",
+      "preventedFromDonating": "هل سبق أن منعت من التبرع؟",
+      "preventionReasonPlaceholder": "السبب",
+      "allergies": "هل تعاني من أي حساسية؟",
+      "allergiesDetailsPlaceholder": "تفاصيل",
+      "surgeries": "هل أجريت عمليات جراحية مؤخراً؟",
+      "surgeriesDatePlaceholder": "التاريخ"
+    },
+    "forWomenOnly": {
+      "title": "للسيدات فقط",
+      "question": "هل أنتِ حامل أو مرضعة؟"
+    },
+    "options": {
+      "yes": "نعم",
+      "no": "لا",
+      "dontKnow": "لا أعرف",
+      "sometimes": "أحياناً",
+      "other": "أخرى"
+    },
+    "disclaimer": "بعض الحالات لا تمنع التبرع بشكل دائم، وسيتم التحقق من أهليتك الطبية قبل كل تبرع",
+    "continue": "متابعة"
+  },
+  "donationPreferences": {
+    "title": "تفضيلات التبرع",
+    "subtitle": "اختر تفضيلاتك لتسهيل الوصول إليك عند الحاجة",
+    "steps": {
+      "basicInfo": "البيانات الأساسية",
+      "healthProfile": "الملف الصحي",
+      "donationPreferences": "تفضيلات التبرع",
+      "completion": "تم الإكتمال"
+    },
+    "receiveRequests": {
+      "label": "استقبال طلبات التبرع",
+      "description": "اختر ما إذا كنت ترغب في استقبال طلبات التبرع بالدم من المحتاجين."
+    },
+    "urgentRequestsOnly": {
+      "label": "طلبات التبرع الطارئة فقط",
+      "description": "هل ترغب في استقبال طلبات التبرع العاجلة فقط؟"
+    },
+    "availableToDonate": {
+      "label": "التوفر للتبرع حالياً",
+      "description": "هل أنت متاح للتبرع في الوقت الحالي؟"
+    },
+    "reminderNextDonation": {
+      "label": "تذكير بالتبرع القادم",
+      "description": "تنبهي تلقائياً فور إمكانية التبرع مجدداً بعد إنتهاء فترة الراحة"
+    },
+    "distanceRange": {
+      "title": "نطاق المسافة المناسب",
+      "subtitle": "حدد أقصى مسافة تفضلها للتبرع (بالكيلومتر)"
+    },
+    "preferredGovernorates": {
+      "title": "المحافظات أو المناطق المتاحة",
+      "subtitle": "اختر المناطق التي يمكنك التبرع فيها",
+      "placeholder": "اختر المحافظات"
+    },
+    "donationType": {
+      "title": "نوع التبرع المفضّل",
+      "wholeBlood": {
+        "title": "الدم الكامل",
+        "subtitle": "الأكثر طلباً"
+      },
+      "platelets": {
+        "title": "الصفائح الدموية",
+        "subtitle": "تجدد سريع"
+      },
+      "plasma": {
+        "title": "البلازما",
+        "subtitle": "دعم مناعي"
+      }
+    },
+    "notificationMethod": {
+      "title": "طريقة التنبيه المفضلة",
+      "subtitle": "اختر الطريقة التي تحب أن يتم التواصل بها معك",
+      "wateenApp": "تطبيق وتين",
+      "whatsapp": "واتساب",
+      "sms": "رسائل نصية"
+    },
+    "continue": "متابعة"
+  },
+  "register": {
+    "title": "إنشاء حساب جديد",
+    "subtitle": "انضم لينا وساهم في إنقاذ الحياة ومتابعة صحتك.",
+    "labels": {
+      "fullName": "الاسم بالكامل",
+      "mobileNumber": "رقم الموبايل",
+      "email": "البريد الإلكتروني",
+      "location": "العنوان",
+      "governorate": "المحافظة",
+      "city": "المنطقة",
+      "password": "كلمة المرور"
+    },
+    "placeholders": {
+      "fullName": "يمنى احمد زيدان",
+      "mobileNumber": "01xxxxxxxxx",
+      "email": "name@example.com",
+      "password": "••••••••"
+    },
+    "errors": {
+      "fullNameRequired": "برجاء كتابة اسمك بالكامل",
+      "invalidMobile": "اكتب رقم موبايل صحيح مكون من 11 رقم",
+      "emailRegistered": "الإيميل ده مسجل قبل كده، جرب تسجل دخول",
+      "locationRequired": "من فضلك اختر المحافظة والمنطقة",
+      "invalidPassword": "كلمة المرور لازم تكون 8 حروف أو أكتر"
+    },
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "submit": "إنشاء الحساب",
+    "alreadyHaveAccount": "عندك حساب بالفعل؟",
+    "loginLink": "تسجيل الدخول",
+    "orSignUpWith": "أو التسجيل بـ"
+  },
+  "login": {
+    "title": "أهلاً بيك من جديد",
+    "subtitle": "سجّل دخولك عشان تتابع حسابك وتكمل",
+    "labels": {
+      "identifier": "البريد الإلكتروني او رقم الموبايل",
+      "password": "كلمة المرور"
+    },
+    "placeholders": {
+      "identifier": "name@example.com",
+      "password": "••••••••"
+    },
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "submit": "تسجيل الدخول",
+    "dontHaveAccount": "معندكش حساب؟",
+    "registerLink": "إنشاء حساب جديد",
+    "orLoginWith": "او الدخول بـ"
+  },
+  "loginSuccess": {
+    "title": "أهلاً بيك من جديد!",
+    "description": "تم تسجيل دخولك بنجاح، تقدر تستخدم التطبيق دلوقتي",
+    "continueToHome": "المتابعه للرئيسيه"
+  },
+  "verification": {
+    "title": "تأكيد الكود المرسل",
+    "description": "دخل كود التأكيد اللي وصلك على تليفونك او ايميلك",
+    "resendText": "إعادة إرسال الكود بعد",
+    "invalidCodeError": "الكود مش صح، جرب تاني",
+    "submit": "تأكيد"
+  },
+  "verificationSuccess": {
+    "title": "تم التأكيد بنجاح",
+    "description": "تم التحقق من حسابك بنجاح، تقدر تكمل بياناتك الشخصية دلوقتي",
+    "continue": "المتابعه"
+  },
+  "forgotPassword": {
+    "title": "نسيت كلمة المرور",
+    "subtitle": "دخل رقم تليفونك او ايميلك علشان تغير كلمة المرور",
+    "label": "البريد الإلكتروني او رقم الموبايل",
+    "placeholder": "name@example.com",
+    "submit": "ابعت كود"
+  },
+  "noInternet": {
+    "title": "مفيش اتصال بالإنتـرنت",
+    "description": "تأكد إن شبكة الموبايل أو الواي فاي شغالين كويس وحاول تاني",
+    "retry": "حاول مره اخرى"
+  },
+  "notFound": {
+    "title": "الصفحة دي مش موجودة",
+    "description": "الصفحة اللي بتدور عليها ممكن تكون اتمسحت أو العنوان مش مظبوط",
+    "backToHome": "الرجوع للرئيسية"
+  },
+  "underMaintenance": {
+    "title": "بنطور التطبيق عشانك",
+    "description": "التطبيق تحت الصيانة حالياً لتقديم خدمة أفضل، هنرجع نشتغل في أسرع وقت",
+    "agree": "موافق"
+  },
+  "error429": {
+    "title": "حصلت مشكلة!",
+    "description": "مش عارفين نتصل بالسيرفر حالياً.. حاول مرة تانية",
+    "retry": "حاول مره اخرى",
+    "backToHome": "الرجوع للرئيسية"
+  },
+  "sessionExpired": {
+    "title": "انتهت صلاحية الجلسة",
+    "description": "تم تسجيل خروجك تلقائياً لحماية أمان حسابك، يرجى إعادة تسجيل الدخول للمتابعة",
+    "loginNow": "تسجيل الدخول الآن",
+    "backToHome": "الرجوع للرئيسية"
+  }
+}
